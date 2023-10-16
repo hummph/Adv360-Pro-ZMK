@@ -1,3 +1,21 @@
+macro_alt_shift_ctrl: macro_alt_shift_ctrl{
+compatible = "zmk,behavior-macro";
+label = "macro_alt_shift_ctrl";
+#binding-cells = <0>;
+bindings = <&kp RIGHT_ALT>, <&kp RIGHT_SHIFT>, <&kp RCTRL>;
+};
+macro_hyper: macro_hyper{
+compatible = "zmk,behavior-macro";
+label = "macro_hyper";
+#binding-cells = <0>;
+bindings = <&kp LEFT_ALT>, <&kp LEFT_SHIFT>, <&kp LCTRL>, <&kp LCMD>;
+};
+macro_alt_plus_lshift: macro_alt_plus_lshift{
+compatible = "zmk,behavior-macro";
+label = "macro_alt_plus_lshift";
+#binding-cells = <0>;
+bindings = <&kp LSHFT>, <&kp LEFT_ALT>;
+};
 macro_quotes: macro_quotes{
 compatible = "zmk,behavior-macro";
 label = "macro_quotes";
