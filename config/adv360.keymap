@@ -43,7 +43,7 @@
          &kp TAB             &kp Q                   &kp W     &kp E      &kp R           &kp T                  &tog 3                                                                                                  &tog 2            &kp Y   &kp U      &kp I     &kp O            &kp P               &kp BSLH
          &kp ESC             &kp A                   &kp S     &kp D      &kp F           &kp G            &macro_hyper  &mt K_APPLICATION LEFT_ALT  &kp LMETA                   &kp LALT  &mt LCTRL ESC  &macro_alt_shift_ctrl            &kp H   &kp J      &kp K     &kp L       &lt 2 SEMI  &mt SINGLE_QUOTE RCMD
        &kp LSHFT       &mt Z LCTRL                   &kp X     &kp C      &kp V  &mt B LEFT_ALT                                                       &kp HOME                  &kp PG_UP                                        &mt RIGHT_ALT N   &kp M  &kp COMMA   &kp DOT  &mt SLASH RCTRL              &kp RSHFT
- &mt GRAVE LCTRL  &kp SINGLE_QUOTE  &macro_alt_plus_lshift  &kp LEFT  &kp RIGHT                                 &kp DEL               &kp BACKSPACE    &kp END                  &kp PG_DN      &kp ENTER              &kp SPACE                   &kp UP   &kp DOWN  &kp LBKT         &kp RBKT                  &mo 1
+ &mt GRAVE LCTRL  &kp SINGLE_QUOTE  &macro_alt_plus_lshift  &kp LEFT  &kp RIGHT                                 &kp DEL               &kp BACKSPACE    &kp END                  &kp PG_DN      &kp ENTER              &kp SPACE                   &kp UP   &kp DOWN  &kp LBKT         &kp RBKT                  &mo 3
             >;
         };
 
