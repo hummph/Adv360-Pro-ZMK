@@ -37,7 +37,7 @@
         label = "HOLD_TAP_TAP_PREFERRED";
         #binding-cells = <2>;
         flavor = "tap-preferred";
-        tapping-term-ms = <200>;
+        tapping-term-ms = <150>;
         quick-tap-ms = <0>;
         bindings = <&kp>, <&kp>;
     };
@@ -49,11 +49,11 @@
 
         default_layer {
             bindings = <
-       &kp EQUAL            &kp N1                  &kp N2    &kp N3     &kp N4          &kp N5              &kp ESCAPE                                                                                 &kp RIGHT_ARROW           &kp N6  &kp N7     &kp N8    &kp N9           &kp N0              &kp MINUS
-         &kp TAB             &kp Q                   &kp W     &kp E      &kp R           &kp T                  &tog 3                                                                                          &tog 1            &kp Y   &kp U      &kp I     &kp O            &kp P               &kp BSLH
-         &kp ESC             &kp A                   &kp S     &kp D      &kp F           &kp G            &macro_hyper  &ht_tp LEFT_ALT K_APP  &kp LMETA                   &kp LALT  &ht_tp RCTRL ESC  &macro_alt_shift_ctrl            &kp H   &kp J      &kp K     &kp L       &lt 2 SEMI  &ht_tp RCMD SINGLE_QUOTE
-       &kp LSHFT       &ht_tp LCTRL Z                   &kp X     &kp C      &kp V  &ht_tp LEFT_ALT B                                               &kp HOME                  &kp PG_UP                                        &ht_tp RIGHT_ALT N   &kp M  &kp COMMA   &kp DOT  &ht_tp RCTRL SLASH              &kp RSHFT
- &ht_tp LCTRL GRAVE  &kp SINGLE_QUOTE  &macro_alt_plus_lshift  &kp LEFT  &kp RIGHT                                 &kp DEL       &kp BACKSPACE    &kp END                  &kp PG_DN      &kp ENTER              &kp SPACE                   &kp UP   &kp DOWN  &kp LBKT         &kp RBKT                  &mo 1
+         &kp EQUAL           &kp N1            &kp N2                  &kp N3    &kp N4          &kp N5                 &kp PRINTSCREEN                                                                      &kp RIGHT_ARROW           &kp N6               &kp N7     &kp N8    &kp N9     &kp N0              &kp MINUS
+         &kp TAB             &kp Q             &kp W                   &kp E     &kp R           &kp T                  &tog 3                                                                               &tog 1                    &kp Y                &kp U      &kp I     &kp O      &kp P               &kp BSLH
+         &kp ESC             &kp A             &kp S                   &kp D     &kp F           &kp G                  &macro_hyper  &ht_tp LEFT_ALT K_APP  &kp LMETA        &kp LALT     &ht_tp RCTRL ESC  &macro_alt_shift_ctrl     &kp H                &kp J      &kp K     &kp L      &lt 2 SEMI          &ht_tp RCMD SINGLE_QUOTE
+         &kp LSHFT           &ht_tp LCTRL Z    &kp X                   &kp C     &kp V           &ht_tp LEFT_ALT B                                           &kp HOME         &kp PG_UP                                                &ht_tp RIGHT_ALT N   &kp M      &kp COMMA &kp DOT    &ht_tp RCTRL SLASH  &kp RSHFT
+         &ht_tp LCTRL GRAVE  &kp SINGLE_QUOTE  &macro_alt_plus_lshift  &kp LEFT  &kp RIGHT                                    &kp DEL       &kp BACKSPACE    &kp END          &kp PG_DN    &kp ENTER         &kp SPACE                                      &kp UP     &kp DOWN  &kp LBKT   &kp RBKT            &mo 1
             >;
         };
 
